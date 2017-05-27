@@ -1,0 +1,52 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.my-map {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	z-index: 0;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+input {
+	position: absolute;
+	background-color: smokewhite;
+	width: 20%;
+	height: 25px;
+	z-index: 1;
+	top: 1em;
+
+}
+
+.location-list {
+		position: absolute;
+		top: 2em;
+		width: 20%;
+		z-index: 1;
+		background-image: url('../image/cityofwindsor.jpg');
+		color: orange;
+		font-size: 1.5em;
+
+}
+
+.location-list p {
+		font-size: 1.0em;
+		margin: 10px 5px;
+}
+
+.location-list p:hover {
+		background: hsl(0, 100%, 95%);
+		cursor: pointer;
+}
